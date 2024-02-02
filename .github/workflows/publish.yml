@@ -18,7 +18,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ghcr.io/Scaylin/publish-packages/game
-          tags: type=sha262709
+          tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
         with:
